@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: #006600;
+}
+h2{
+    color: #0000FF;
+    text-decoration: underline;
+}
+.mother{
+    font-weight: bold;
+    color: #FF3399;
+    background-color: #FECFFD;
+    text-align: center;
+}
+.content{
+    background-color: #FFFFCC;
+}
+.passage1{
+    text-align: center;
+    color: #0000FF;
+}
+.passage2{
+    text-align: center;
+    color: brown;
+}
+.passage3{
+    text-align: center;
+    color: ;
+}
