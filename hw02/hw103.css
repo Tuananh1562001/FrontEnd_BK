@@ -1,0 +1,28 @@
+body{
+    background-color: #A06D21;
+    color: #FFFFFF;
+    background-image: #A06D21;
+}
+h1{
+    text-align: center;
+    color: #FFCC00;
+}
+.content{
+    position: relative;
+    height: 1000px;
+}
+img{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 50%;
+    height: 50%;
+}
+
+.word{
+position: absolute;
+top: 90px;
+}
+
