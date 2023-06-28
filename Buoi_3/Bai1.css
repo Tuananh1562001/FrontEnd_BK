@@ -1,0 +1,22 @@
+header{
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(132, 204, 132);
+    border: 1px solid black;
+}
+.content{
+    margin: 10px 0px;
+}
+.name{
+    width: 80px;
+    background-color: dodgerblue;
+    margin: 10px 0px;
+    color: white;
+    text-align: center;
+}
+.footer{
+
+    text-align: center;
+    background-color:black;
+    color: white;
+}

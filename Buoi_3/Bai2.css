@@ -1,0 +1,24 @@
+.content1{
+    margin-bottom: 10px;
+}
+#address{
+    color: white;
+    width:80px;
+    text-align: center;
+}
+.content2{
+    display: flex;
+}
+.name1{
+    background-color: coral;
+    margin: 10px 0px;
+}
+.name2{
+    background-color: cornflowerblue;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.content3{
+    margin-top: 10px;
+    background-color: saddlebrown;
+}

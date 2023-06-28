@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(132, 204, 132);
+    border: 1px solid black;
+}
+footer{
+    text-align: center;
+    background-color:black;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 150px;
+}
+.name{ 
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
