@@ -1,0 +1,30 @@
+h1{
+    background-color: powderblue;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    text-align: center;
+}
+p{
+    border: 2px solid tomato;
+}
+a:hover{
+    background-color: rgb(255, 99, 71);
+    color:#3cb371;
+    text-decoration: none;
+}
+a:visited{
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
