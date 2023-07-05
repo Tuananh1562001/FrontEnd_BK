@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body>
+    <h3 id="title">Demo jquery</h3>
+    <div class="header">Header</div>
+    <input type="text" id="fullName" value="Ngọc">
+    <button id="register">Đăng ký</button>
+</body>
+
+<script>
+    let html =  $(".header").text()
+    console.log(html)
+    $("#title").text("Thực hành Jquery")
+    $(function() {
+        $("#register").click(function () {
+            alert("đăng kí thành công")
+        })
+    })
+</script>
+</html>

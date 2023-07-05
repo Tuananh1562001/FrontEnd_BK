@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #name{
+            color: red;
+            font-weight: bold;
+            background-color: orange;
+        }
+        #first_name{
+            color: whitesmoke;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Demo Dom</h1>
+
+    <p id="name">Name:</p>
+    <p id="first_name">Họ Tên:</p>
+    <div class="content">Bài viết</div>
+    <div class="content">Giới thiệu công ty</div>
+
+    <script>
+        // get object html
+        let pTag = document.getElementById("name")
+        let pId = document.getElementById("first_name")
+        // console.log(pTag)
+        let content = pTag.innerHTML
+        let firstName = pId.innerHTML
+        console.log(content)
+
+        // set HTML
+        name = "Ngọc"
+        first_name = "Nguyễn"
+        pTag.innerHTML = content + " "+ name
+        pId.innerHTML = firstName + " "+ first_name
+        
+        let divTag = document.getElementsByClassName("content")
+        console.log(divTag)
+        divTag[1].style.color = "yellow"
+        divTag[0].style.backgroundColor = "red"
+    </script>
+</body>
+</html>
