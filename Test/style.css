@@ -1,0 +1,45 @@
+*{
+    background-color: black;
+}
+.content{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.app{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    height: 40px;
+}
+.fb{
+    width: 50%;
+    background-color: darkblue;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.twitter{
+    width: 50%;
+    background-color: rgb(57, 140, 200);
+    padding-top: 5px;
+    font-weight: bold;
+}
+.text{
+    padding-top: 15px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.form-control{
+    margin-top: 20px;
+}
+button{
+    width: 100%;
+    color: white;
+}
+.note{
+    margin: 15px 0px;
+    color: white;
+}
