@@ -1,0 +1,34 @@
+.navbar{
+    background-color: #ffd52f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+.nav-link:hover{
+    color: white;
+}
+.home{
+    color: white;
+}
+.title{
+    height: 50px;
+    margin: 20px 0px;
+    background-color: red;
+    text-align: center;
+}
+h3{
+    padding: 10px;
+    text-transform: uppercase;
+}
+.row_item {
+    margin-bottom: 10px;
+}
