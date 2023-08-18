@@ -15,6 +15,8 @@ function Form() {
     setNewJobName(e.target.value) 
   };
 
+  
+
   const add = () => {
     setArrJobShow([...arrJobShow, { jobName: newJobName, salary: 1500 }]);
   };
