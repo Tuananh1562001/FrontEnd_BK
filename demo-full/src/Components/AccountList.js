@@ -2,33 +2,37 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
+import Button from "react-bootstrap/Button";
+
 const AccountList = () => {
   const [listAccount, setListAccount] = useState([]);
 
   useEffect(() => {
     async function getListAccount() {
-      let res2 = await axios.get("http://localhost:8080/account").then((res) => {
-        setListAccount(res.data);
-        console.log(res.data);
-      })
-      .catch(err => {
-        console.log("error")
-        console.log(err)
-      })
+      let res2 = await axios
+        .get("http://localhost:8080/account")
+        .then((res) => {
+          setListAccount(res.data);
+        })
+        .catch((err) => {
+          console.log("error");
+          console.log(err);
+        });
     }
     getListAccount();
   }, [listAccount]);
 
   const deleteData = (id) => {
-    axios.delete(`http://localhost:8080/account/${id}`)
-    .then(res => {
-      console.log(res.data)
-      console.log(res.status)
-    })
-    .catch(err => {
-      console.log(err)
-    })
-  }
+    axios
+      .delete(`http://localhost:8080/account/${id}`)
+      .then((res) => {
+        console.log(res.data);
+        console.log(res.status);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   return (
     <div className="container">
@@ -61,7 +65,12 @@ const AccountList = () => {
                 <td>{obj.address} </td>
                 <td>{obj.departmentName} </td>
                 <td>
-                  <button onClick={ () => deleteData(obj.id)} className="btn btn-danger btn-sm">Delete</button>
+                  <button
+                    onClick={() => deleteData(obj.id)}
+                    className="btn btn-danger btn-sm"
+                  >
+                    Delete
+                  </button>
                 </td>
               </tr>
             );
